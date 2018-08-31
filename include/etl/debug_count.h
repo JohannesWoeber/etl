@@ -36,6 +36,10 @@ SOFTWARE.
 
 #include "platform.h"
 
+#if defined(ETL_COMPILER_KEIL)
+    #pragma diag_suppress 381
+#endif
+
 ///\defgroup debug_count debug count
 ///\ingroup utilities
 

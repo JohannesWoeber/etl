@@ -74,7 +74,7 @@ namespace std
 ///\ingroup nullptr
 //*****************************************************************************
 #if !defined(ETL_STLPORT)
-const std::nullptr_t nullptr = {};
+//const std::nullptr_t nullptr = {};
 #endif
 
 #else
